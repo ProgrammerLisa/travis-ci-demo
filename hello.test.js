@@ -3,8 +3,8 @@
 var expect = require('chai').expect;
 var hello = require('./hello');
 
-describe('run hello.js', function() {
-  it('should return "Hello World"', function() {
-    expect(hello()).to.equal('Hello World');
+describe('运行 hello.js', function() {
+  it('应该输出 "Hello Node"', function() {
+    expect(hello()).to.equal('Hello Node');
   });
 });
